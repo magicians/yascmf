@@ -18,7 +18,7 @@ APP_DEBUG=true
 APP_KEY=RrQvzbUxaKIlj74s3hOYClGQ71zoVixr
 
 DB_HOST=localhost
-DB_DATABASE=yascmf_app
+DB_DATABASE=app
 DB_USERNAME=root
 DB_PASSWORD=root
 
