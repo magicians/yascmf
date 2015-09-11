@@ -49,6 +49,11 @@ class BlogController extends CommonController
         return view('front.index', compact('articles', 'title', 'description'));
     }
 
+    public function getBlog()
+    {
+        return view('about.index');
+    }
+
     /**
      * 博客分类
      */

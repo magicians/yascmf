@@ -1,15 +1,6 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
+
 
 /*
 #Laravel 5.1 默认路由
@@ -174,6 +165,8 @@ Route::group(array(), function () {
 
 	# 前台博客首页
 	Route::get('/', ['as' => 'home', 'uses' => $Blog.'getIndex']);
+
+    Route::get('/about', ['as' => 'about', 'uses' => $Blog.'getAbout']);
 
 	# 归档页面
 	Route::get('archive', ['as' => 'archive', 'uses' => $Blog.'getArchive']);
